@@ -21,3 +21,6 @@ The data provided contain both training data and test data, and both data contai
 5. Export the `exdatawlabel` as cleandata.txt.
 6. Creates a second, independent tidy data set with the average of each variable for each activity and each subject, called `averagedata`.
 7. Export the `averagedata` as averagedata.txt.
+
+### More informations:
+For more information, please go to the website: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
