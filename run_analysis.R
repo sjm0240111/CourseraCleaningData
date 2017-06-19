@@ -38,6 +38,7 @@ names(activityname) <- c("label", "activity")
 # Finally we can merge our data and it's label.
 exdatawlabel <- merge(extractdata, activityname, by.x = "label",by.y = "label")
 write.table(exdatawlabel, file = "data/cleandata.txt")
+
 # Here we create a second dataset with the average of each variable for each 
 # activity and each subject. Here we reserved the label variable, which serves as
 # a control variable.
